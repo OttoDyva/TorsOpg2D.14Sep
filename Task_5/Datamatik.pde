@@ -12,11 +12,11 @@ println(myStudent2.name + " " + myStudent2.datamatikerTeam);
 
 if(isClassmates(myStudent1, myStudent2)) 
   {
-  println("Are classmates");
+  println(myStudent1.name + " are classmates with " + myStudent2.name);
   }
 else 
   {
- println("Are not classmates"); 
+ println(myStudent1.name + " are not classmates with " + myStudent2.name); 
   }
 }
 
